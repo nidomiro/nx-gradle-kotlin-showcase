@@ -8,4 +8,8 @@
  */
 
 rootProject.name = "nx-gradle-kotlin-showcase"
-include("lib")
+include(
+  "apps:testapp1",
+  "libs:shared:testlib1",
+  "libs:shared:testlib2",
+)
